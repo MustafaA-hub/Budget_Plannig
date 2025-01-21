@@ -59,4 +59,4 @@ updated_data = pd.concat([existing_data, extracted_info], ignore_index=True)
 
 # Write the updated DataFrame back to the Excel file
 updated_data.to_excel(file_path, sheet_name='Daily Expense', index=False)
-print("Data has been successfully extracted and loaded into the excel sheet new")
+print("Data has been successfully extracted and loaded into the excel sheet")
