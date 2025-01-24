@@ -86,6 +86,13 @@ class MA_Finance(QMainWindow):
             # Remove the columns in reverse order to avoid shifting issues
             for col in sorted(columns_to_remove, reverse=True):
                 self.table.removeColumn(col)
+            
+            # Check if any cells in column 4 are empty and set them to "Not Specified"
+            for row in range(self.table.rowCount()):
+                item = self.table.item(row, 3)
+                if item is None or item == "None" or not item.text().strip():
+                    self.table.setItem(row, 3, QTableWidgetItem("Not Specified"))
+                    self.table.setItem(row, 0, QTableWidgetItem("Not Specified"))
 
             table = self.table
             Categories(self.table)
