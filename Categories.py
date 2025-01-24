@@ -88,103 +88,91 @@ Primary_catogories2 = {
         "Mb-Credit Card/Loc Pay."
     ],
     "Miscellaneous": [
-        "Interac E-Transfer", "Ice Currency", "Cppf Missi", 
-        "Fpos Usat_wt133957 Missi", "Fpos Usat_wt133957",
-        "Opos 1.00 Pyn*Lofree Onlin", "Coinamatic", 
+        "Interac E-Transfer", "Ice Currency", "Cppf", 
+        "Fpos Usat_wt133957 Missi", "Fpos Usat_wt133957", 
         "Opos Immigration Canada Oottaw", "Opos Change.Org +1415", 
         "Opos Hdfund.Org +1248", "Monthly Fees", 
-        "Mto Drivetest D41 Winds"
+        "Drivetest", "Mecp-Westgate-Algonqui   Whitn", "Ptc Adil" , "Henrietta'S Huntsville   Hunts",
+        "Opos Tgtg Bet8e0kx7tr81  Vanco", "Opos Fh* Splash Waterspor+1855 ", 
+        "Sq *Waterfront Ice Cre", "Singlekey", "Opos Town Of Milton - Parmilto", "Canada", "Save Tax Solutions",
+        "Change.Org", "Hdfund.Org", "Siam Centre-Vil", "Couche-Tard", "Drogheria Fine", "Boulangerie Des Copain",
+        "O Mont -Creperie Inc.", "Iccm Milton", "Remitly", "Toniagara* R4xmuhe" 
     ],
     "Income": [
         "Lancesoft"
     ],
-    "Gym": [
-        "Movati "
+    "Personal development": [
+        "Movati", "Udemy"
     ],
     "Groceries": [
-        "Nizam Produce", "Costco", "Walmart", "Zehrs", "Freshco", 
-        "Metro", "Dollarama", "Rcss", "Shoppers Drug Mart", 
-        "Staples", "Oriental Market", "Amazing Bins", "Real Canadian Superstore", "Food Market"
+        "Nizam Produce", "Costco", "Walmart", "Zehrs", "Freshco", "Food Basics","namaste indian",
+        "Metro", "Rcss", "Shoppers Drug Mart", "Grocers", "Farm", "7-Eleven", "bread",
+        "Oriental Market", "Amazing Bins", "Real Canadian Superstore", "Food Market", 'Asian Food Imports',
+        "Marigold Unique", "Pharmacy", "Convenience", "Grocery", "Groceries", "Grocer" "Supermarket", 
+        "Superstore", "Market", "Mart", "Drug Mart", "Drugstore", "Drug Store", "Drug", "Pharmacy","Store", "Shop"
     ],
     "Rent": [
         "Lrl Rent"
     ],
     "Car Expense": [
         "1st Auto Service", "Shell", "Esso","Pioneer ", "Ultramar", 
-        "Petro", "Bear Creek", "Gas"
+        "Petro", "Bear Creek", "Gas", "Fuel", "Fuels", "Cumberland", "Onroute", "Gasoline", "Gas Station"
     ],
     "House Hold Items": [
-        "Opos 1004.00 Kickstarter.+1347", "Ikea", 
-        "Homesense", "Winners", "Goodwill", "Think Kitchen"
-    ],
+        "Opos 1004.00 Kickstarter.+1347", "Ikea", "Amzn", "Amazon", "Staples",
+        "Homesense", "Winners", "Goodwill", "Think Kitchen", "Lofree",
+        "Dollarama", "Dollar", "Home Depot", "Marshalls", 'Giant Tiger', "Hardware"
+        ],
     "Restraunt": [
         "Tim Hortons", "Popeyes", 
-        "Pizza", "Pizzeria", "Hakimo Donair", 
+        "Pizza", "Pizzeria", "Donair", 'Restaurant',
         "Shawarma", "Marigold Unique Flavou Hunts", 
         "Tea Station", "Grill", "Little Ceasers", "Fork & Knife", "Starbucks",
-        "Mcdonald", "Dairy Queen", "Royal Paan", "Bakery", "Cafe", "Restraunt", "Sushi", "Subway",
-        "Cinnabon", "Denny's", "Dinner", "Ice Cream"
+        "Mcdonald", "Dairy Queen", "Royal Paan", "Bakery", "Cafe", "Caffe", "Sushi", "Subway",
+        "Cinnabon", "Dennys", "Dinner", "Ice Cream","Bubble Teas", "Uncle Tetsu", "Ramen", "kitchen",
+        "Burger", "Pita", "Bites", "Punjabi", "Biryani", "KFC", "Taco", "Pasta", "Wings", "Culture Crust",
+        "Mr. Puffs", "Baskin Robbins", "Krispy Kreme", "Doughnuts", "Poutine", "Brewery", "Bar", "Pub",
+        "Indiawalleh", "Chocolate", "Chocolates", "Dessert", "Rangeela Paan", "Sweet Heat", 'Chatime',
+        "Cuisine", "Kitchen", "Dhesi Swaad", "Hakka", "Gona Cha", "Sumaq", "Karhai", "Kufiya House", "Italian", "tea",
+        "Osmows", "Taka Japanese & Thai", "bbq"
     ],
     "Entertainment": [
-        "Cineplex", "Opos Playstationnetwork 877-9", 
-        "Opos Fh* Grand Bend Parasgrand", "Niagara Speedway Go Kartsniaga", "Watersports"
+        "Cineplex", "Playstationnetwork", "Splash",
+        "Grand Bend", "Niagara Speedway Go Kartsniaga", "Watersports", "Playstationnetwork" 
     ],
     "Travel": [
-        "Parking", "Presto", 
-        "Via Rail", "Travel"
+        "Parking", "Presto", "Airbnb",
+        "Via Rail", "Travel", "Airlines"
     ],
     "Medical": [
         "Rose City Dental"
     ],
     "Clothing": [
-        "Shein.Com", "Sephora", 
-        "Old Navy", "Urban Planet"
+        "Shein.Com", "Sephora", "Coinamatic",
+        "Old Navy", "Urban Planet", "Cleaners", "Laundry", "Laundromat"
     ],
     "Donation": [
-        "Madinah Donation", "Penny Appeal Canada"
+        "Madinah Donation", "Penny Appeal Canada", "Islamic Relief", "Charity", "Donation", "Fund", "Relief"
     ],
+    "Not Specified":["None"]
 }
 
 class Categories:
     def __init__(self, table):
         
+        # Get the transaction descriptions from the table
         transaction_descriptions = []
         for row in range(table.rowCount()):
             item = table.item(row, 3)
             transaction_descriptions.append(item.text())
             transaction_descriptions = [s.strip() for s in transaction_descriptions]
 
-        description_found = 0
-        description_not_found = 0
-        """
-        for index, description in enumerate(transaction_descriptions):
-            for category, subcategories in Primary_catogories.items():
-                case = False
-                if description in subcategories:
-                    #print(f"{category}: {description} (Index: {index})")
-                    case = True
-                    table.setItem(index, 0, QTableWidgetItem(str(description)))
-                    description_found = description_found + 1
-            if case == False: description_not_found = description_not_found + 1
-        """
-        #print("description_found = " + str(description_found))
-        #print("description_not_found = " + str(description_not_found))
-
-        description_found = 0
-        description_not_found = 0
-
+        # Determine category based on transaction description
         for index, description in enumerate(transaction_descriptions):
             for category, subcategories in Primary_catogories2.items():
-                case = False
-                repeats = 0
                 for sub in subcategories:
-                    if sub in description:
+                    if sub.lower() in description.lower():
                         table.setItem(index, 0, QTableWidgetItem(str(category)))
-                        case = True
-                        description_found = description_found + 1
-                        #print(f"{category}, {sub}: {description} (Index: {index})")
-                        repeats = repeats + 1
-                    elif repeats >= 2: print(description + ": " + str(repeats))
-            if case == False: description_not_found = description_not_found + 1
 
-        print("total = " + str(len(transaction_descriptions)) + " found = " + str(description_found) + " not_found = " + str(description_not_found))
+        # Check to see if any category row is left empty
+        for row in range(table.rowCount()):
