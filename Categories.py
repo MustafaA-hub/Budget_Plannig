@@ -88,14 +88,13 @@ Primary_catogories2 = {
         "Mb-Credit Card/Loc Pay."
     ],
     "Miscellaneous": [
-        "Interac E-Transfer", "Ice Currency", "Cppf", 
-        "Fpos Usat_wt133957 Missi", "Fpos Usat_wt133957", 
-        "Opos Immigration Canada Oottaw", "Opos Change.Org +1415", 
-        "Opos Hdfund.Org +1248", "Monthly Fees", 
-        "Drivetest", "Mecp-Westgate-Algonqui   Whitn", "Ptc Adil" , "Henrietta'S Huntsville   Hunts",
-        "Opos Tgtg Bet8e0kx7tr81  Vanco", "Opos Fh* Splash Waterspor+1855 ", 
-        "Sq *Waterfront Ice Cre", "Singlekey", "Opos Town Of Milton - Parmilto", "Canada", "Save Tax Solutions",
-        "Change.Org", "Hdfund.Org", "Siam Centre-Vil", "Couche-Tard", "Drogheria Fine", "Boulangerie Des Copain",
+        "Interac E-Transfer", "Ice Currency", "Cppf", "Fpos Usat_wt133957 Missi", 
+        "Fpos Usat_wt133957", "Opos Immigration Canada Oottaw", "Opos Change.Org +1415", 
+        "Monthly Fees", "Drivetest", "Mecp-Westgate-Algonqui   Whitn", "Ptc Adil" , 
+        "Henrietta'S Huntsville   Hunts", "Opos Tgtg Bet8e0kx7tr81  Vanco", 
+        "Opos Fh* Splash Waterspor+1855 ", "Sq *Waterfront Ice Cre", "Singlekey", 
+        "Opos Town Of Milton - Parmilto", "Save Tax Solutions","Change.Org", "Hdfund.Org", 
+        "Siam Centre-Vil", "Couche-Tard", "Drogheria Fine", "Boulangerie Des Copain",
         "O Mont -Creperie Inc.", "Iccm Milton", "Remitly", "Toniagara* R4xmuhe" 
     ],
     "Income": [
@@ -105,18 +104,20 @@ Primary_catogories2 = {
         "Movati", "Udemy"
     ],
     "Groceries": [
-        "Nizam Produce", "Costco", "Walmart", "Zehrs", "Freshco", "Food Basics","namaste indian",
-        "Metro", "Rcss", "Shoppers Drug Mart", "Grocers", "Farm", "7-Eleven", "bread",
-        "Oriental Market", "Amazing Bins", "Real Canadian Superstore", "Food Market", 'Asian Food Imports',
-        "Marigold Unique", "Pharmacy", "Convenience", "Grocery", "Groceries", "Grocer" "Supermarket", 
-        "Superstore", "Market", "Mart", "Drug Mart", "Drugstore", "Drug Store", "Drug", "Pharmacy","Store", "Shop"
+        "Nizam Produce", "Costco", "Walmart", "Zehrs", "Freshco", "Food Basics",
+        "namaste indian", "Metro", "Rcss", "Shoppers Drug Mart", "Grocers", "Farm", 
+        "7-Eleven", "bread","Oriental Market", "Amazing Bins", "Real Canadian Superstore", 
+        "Food Market", 'Asian Food Imports',"Marigold Unique", "Pharmacy", "Convenience",
+        "Grocery", "Groceries", "Grocer" "Supermarket", "Superstore", "Market", "Mart", 
+        "Drug Mart", "Drugstore", "Drug Store", "Drug", "Pharmacy","Store", "Shop"
     ],
     "Rent": [
         "Lrl Rent"
     ],
     "Car Expense": [
         "1st Auto Service", "Shell", "Esso","Pioneer ", "Ultramar", 
-        "Petro", "Bear Creek", "Gas", "Fuel", "Fuels", "Cumberland", "Onroute", "Gasoline", "Gas Station"
+        "Petro", "Bear Creek", "Gas", "Fuel", "Fuels", "Cumberland", 
+        "Onroute", "Gasoline", "Gas Station"
     ],
     "House Hold Items": [
         "Opos 1004.00 Kickstarter.+1347", "Ikea", "Amzn", "Amazon", "Staples",
@@ -124,21 +125,21 @@ Primary_catogories2 = {
         "Dollarama", "Dollar", "Home Depot", "Marshalls", 'Giant Tiger', "Hardware"
         ],
     "Restraunt": [
-        "Tim Hortons", "Popeyes", 
-        "Pizza", "Pizzeria", "Donair", 'Restaurant',
-        "Shawarma", "Marigold Unique Flavou Hunts", 
-        "Tea Station", "Grill", "Little Ceasers", "Fork & Knife", "Starbucks",
-        "Mcdonald", "Dairy Queen", "Royal Paan", "Bakery", "Cafe", "Caffe", "Sushi", "Subway",
-        "Cinnabon", "Dennys", "Dinner", "Ice Cream","Bubble Teas", "Uncle Tetsu", "Ramen", "kitchen",
-        "Burger", "Pita", "Bites", "Punjabi", "Biryani", "KFC", "Taco", "Pasta", "Wings", "Culture Crust",
-        "Mr. Puffs", "Baskin Robbins", "Krispy Kreme", "Doughnuts", "Poutine", "Brewery", "Bar", "Pub",
-        "Indiawalleh", "Chocolate", "Chocolates", "Dessert", "Rangeela Paan", "Sweet Heat", 'Chatime',
-        "Cuisine", "Kitchen", "Dhesi Swaad", "Hakka", "Gona Cha", "Sumaq", "Karhai", "Kufiya House", "Italian", "tea",
-        "Osmows", "Taka Japanese & Thai", "bbq"
+        "Tim Hortons", "Popeyes", "Pizza", "Pizzeria", "Donair", 'Restaurant',
+        "Shawarma", "Marigold Unique Flavou Hunts", "Tea Station", "Grill", 
+        "Little Ceasers", "Fork & Knife", "Starbucks","Mcdonald", "Dairy Queen", 
+        "Royal Paan", "Bakery", "Cafe", "Caffe", "Sushi", "Subway","Cinnabon", 
+        "Dennys", "Dinner", "Ice Cream","Bubble Teas", "Uncle Tetsu", "Ramen",
+        "Burger", "Pita", "Bites", "Punjabi", "Biryani", "KFC", "Taco", "Pasta", 
+        "Wings", "Culture Crust","Mr. Puffs", "Baskin Robbins", "Krispy Kreme", 
+        "Doughnuts", "Poutine", "Brewery", "Bar", "Pub","Indiawalleh", "Chocolate",
+        "Chocolates", "Dessert", "Rangeela Paan", "Sweet Heat", 'Chatime',"Cuisine", 
+        "Kitchen", "Dhesi Swaad", "Hakka", "Gona Cha", "Sumaq", "Karhai", "Kufiya House", 
+        "Italian", "tea","Osmows", "Taka Japanese & Thai", "bbq"
     ],
     "Entertainment": [
-        "Cineplex", "Playstationnetwork", "Splash",
-        "Grand Bend", "Niagara Speedway Go Kartsniaga", "Watersports", "Playstationnetwork" 
+        "Cineplex", "Playstationnetwork", "Splash", "Playstationnetwork",
+        "Niagara Speedway Go Kartsniaga", "Watersports" 
     ],
     "Travel": [
         "Parking", "Presto", "Airbnb",
@@ -152,9 +153,12 @@ Primary_catogories2 = {
         "Old Navy", "Urban Planet", "Cleaners", "Laundry", "Laundromat"
     ],
     "Donation": [
-        "Madinah Donation", "Penny Appeal Canada", "Islamic Relief", "Charity", "Donation", "Fund", "Relief"
+        "Madinah Donation", "Penny Appeal Canada", "Islamic Relief",
+        "Charity", "Donation", "Relief"
     ],
-    "Not Specified":["None"]
+    "Not Specified":[
+        "None"
+        ]
 }
 
 class Categories:
@@ -163,16 +167,24 @@ class Categories:
         # Get the transaction descriptions from the table
         transaction_descriptions = []
         for row in range(table.rowCount()):
-            item = table.item(row, 3)
+            item = table.item(row, 2)
             transaction_descriptions.append(item.text())
             transaction_descriptions = [s.strip() for s in transaction_descriptions]
-
+    
         # Determine category based on transaction description
         for index, description in enumerate(transaction_descriptions):
+            repeat = 0
             for category, subcategories in Primary_catogories2.items():
                 for sub in subcategories:
                     if sub.lower() in description.lower():
                         table.setItem(index, 0, QTableWidgetItem(str(category)))
+                        repeat += 1
+                        break
+            #if repeat >= 2: print(description + " :" + str(repeat))
 
         # Check to see if any category row is left empty
         for row in range(table.rowCount()):
+                item = table.item(row, 0)
+                if item is None or item == "None" or not item.text().strip():
+                    #print("Uncetgorized Items: " + table.item(row,2).text())
+                    table.setItem(row, 0, QTableWidgetItem(str("Un-Categorized")))
